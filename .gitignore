@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Tailwind CSS generated files
+*.css.map
+
+# Static files
+public/images/generated/
+
+# Test coverage
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Next.js cache
+.next/cache/
+
+# Vercel and deployment
+.vercel/
+.vercel_build_output/
+
+# Editor directories and settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# MacOS files
+.DS_Store
+
+# Shadcn CLI generated files (optional if used)
+.shadcn.json
+
+# Miscellaneous
+*.bak
+*.tmp
